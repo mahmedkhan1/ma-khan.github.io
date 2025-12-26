@@ -442,6 +442,41 @@ footer {
     }
 }
 
+/* Hero video styling */
+#hero-video {
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#hero-video video {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* Responsive video */
+@media (max-width: 768px) {
+    #hero-video video {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    #hero-video video {
+        max-height: 200px;
+    }
+}
+
+@media print {
+    #hero-video {
+        display: none;
+    }
+}
+
 /* Print styles for better printing */
 @media print {
     body {
