@@ -227,6 +227,155 @@ footer {
     padding: 1.5rem;
     border-radius: 6px;
     border-left: 4px solid #3498db;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.award-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.award-category h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.award-item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e8f4ff;
+}
+
+.award-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.award-title {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.3rem;
+}
+
+.award-date {
+    font-size: 0.9rem;
+    color: #3498db;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.award-description {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Additional styling for award organization */
+.award-organization {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+/* Fancy date styling */
+.award-date {
+    font-size: 0.9rem;
+    color: #3498db;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    background: rgba(52, 152, 219, 0.1);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    position: relative;
+}
+
+.award-date::before {
+    content: "📅";
+    margin-right: 0.3rem;
+}
+
+/* Enhanced award item styling */
+.award-item {
+    margin-bottom: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px dashed #e8f4ff;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.award-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.award-item:hover {
+    transform: translateX(5px);
+}
+
+.award-item::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    background: #3498db;
+    border-radius: 50%;
+}
+
+/* Improved section spacing */
+#awards, #editorial-activities, #conference-activities {
+    scroll-margin-top: 2rem;
+}
+
+/* Enhanced award category styling */
+.award-category {
+    background: linear-gradient(135deg, #f1f8ff 0%, #e3f2fd 100%);
+    padding: 1.8rem;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.award-category::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 20px 20px 0;
+    border-style: solid;
+    border-color: #3498db #fff;
+}
+
+.award-category:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.award-category h3 {
+    color: #2c3e50;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid rgba(52, 152, 219, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.award-category h3::before {
+    content: "▸";
+    margin-right: 0.5rem;
+    color: #3498db;
 }
 
 /* Teaching and Supervision */
@@ -282,5 +431,51 @@ footer {
     
     .contact-info {
         flex-direction: column;
+    }
+    
+    .award-category h3::before {
+        display: none;
+    }
+    
+    .award-item::before {
+        left: 0;
+    }
+}
+
+/* Print styles for better printing */
+@media print {
+    body {
+        background: white;
+        font-size: 12pt;
+    }
+    
+    header {
+        background: #2c3e50 !important;
+        color: white !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+    
+    nav {
+        display: none;
+    }
+    
+    section {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    
+    .award-category {
+        background: white !important;
+        border: 1px solid #3498db;
+        box-shadow: none;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+    
+    .award-date {
+        background: rgba(52, 152, 219, 0.2) !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
     }
 }
