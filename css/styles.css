@@ -1,0 +1,286 @@
+/* Basic reset and typography */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(135deg, #2c3e50, #1a2a3a);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+/* Navigation */
+nav {
+    background-color: #34495e;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover, nav a.active {
+    background-color: #3498db;
+}
+
+/* Main content styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3498db;
+}
+
+/* Research interests */
+.interests-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.interest-card {
+    background: #f1f8ff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border-left: 4px solid #3498db;
+}
+
+.interest-card h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+/* Publications */
+.publication {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.publication:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.publication h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.publication .authors {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 0.5rem;
+}
+
+.publication .journal {
+    color: #3498db;
+    font-weight: 500;
+}
+
+.publication h3 a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.publication h3 a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+/* Contact */
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.contact-item {
+    flex: 1;
+    min-width: 250px;
+    background: #f1f8ff;
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+.contact-item h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Experience section */
+.experience-item ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+.experience-item li {
+    margin-bottom: 0.3rem;
+}
+
+/* Experience, Education, and Skills sections */
+.experience-item, .education-item, .skill-category {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.experience-item:last-child, .education-item:last-child, .skill-category:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.experience-item h3, .education-item h3, .skill-category h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* Awards and Grants */
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.award-category {
+    background: #f1f8ff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border-left: 4px solid #3498db;
+}
+
+/* Teaching and Supervision */
+.teaching-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.teaching-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Collaborations */
+.collaborations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.collaboration-category {
+    background: #f1f8ff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border-left: 4px solid #3498db;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 2rem;
+    }
+    
+    main {
+        padding: 1rem;
+    }
+    
+    section {
+        padding: 1.5rem;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav li {
+        margin: 0.5rem 0;
+    }
+    
+    .contact-info {
+        flex-direction: column;
+    }
+}

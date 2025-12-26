@@ -4,207 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Ahmed Khan - Research Portfolio</title>
-    <style>
-        /* Basic reset and typography */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-        
-        /* Header styles */
-        header {
-            background: linear-gradient(135deg, #2c3e50, #1a2a3a);
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-        }
-        
-        .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .subtitle {
-            font-size: 1.2rem;
-            font-weight: 300;
-            opacity: 0.9;
-        }
-        
-        /* Main content styles */
-        main {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        
-        section {
-            background: white;
-            border-radius: 8px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
-        h2 {
-            color: #2c3e50;
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid #3498db;
-        }
-        
-        /* Research interests */
-        .interests-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin-top: 1rem;
-        }
-        
-        .interest-card {
-            background: #f1f8ff;
-            padding: 1.5rem;
-            border-radius: 6px;
-            border-left: 4px solid #3498db;
-        }
-        
-        .interest-card h3 {
-            color: #2c3e50;
-            margin-bottom: 0.5rem;
-        }
-        
-        /* Publications */
-        .publication {
-            margin-bottom: 1.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid #eee;
-        }
-        
-        .publication:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-        
-        .publication h3 {
-            color: #2c3e50;
-            margin-bottom: 0.5rem;
-        }
-        
-        .publication .authors {
-            font-style: italic;
-            color: #7f8c8d;
-            margin-bottom: 0.5rem;
-        }
-        
-        .publication .journal {
-            color: #3498db;
-            font-weight: 500;
-        }
-        
-        .publication h3 a {
-            color: #2c3e50;
-            text-decoration: none;
-        }
-        
-        .publication h3 a:hover {
-            color: #3498db;
-            text-decoration: underline;
-        }
-        
-        /* Contact */
-        .contact-info {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
-            margin-top: 1rem;
-        }
-        
-        .contact-item {
-            flex: 1;
-            min-width: 250px;
-            background: #f1f8ff;
-            padding: 1.5rem;
-            border-radius: 6px;
-        }
-        
-        .contact-item h3 {
-            color: #2c3e50;
-            margin-bottom: 0.5rem;
-        }
-        
-        /* Footer */
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 1.5rem;
-            margin-top: 2rem;
-        }
-        
-        /* Experience section */
-        .experience-item ul {
-            margin-top: 0.5rem;
-            padding-left: 1.5rem;
-        }
-        
-        .experience-item li {
-            margin-bottom: 0.3rem;
-        }
-        
-        /* Experience, Education, and Skills sections */
-        .experience-item, .education-item, .skill-category {
-            margin-bottom: 1.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid #eee;
-        }
-        
-        .experience-item:last-child, .education-item:last-child, .skill-category:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-        
-        .experience-item h3, .education-item h3, .skill-category h3 {
-            color: #2c3e50;
-            margin-bottom: 0.5rem;
-        }
-        
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin-top: 1rem;
-        }
-        
-        /* Responsive design */
-        @media (max-width: 768px) {
-            .header-content h1 {
-                font-size: 2rem;
-            }
-            
-            main {
-                padding: 1rem;
-            }
-            
-            section {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
@@ -214,14 +14,32 @@
         </div>
     </header>
     
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="pages/research.html">Research</a></li>
+            <li><a href="pages/publications.html">Publications</a></li>
+            <li><a href="pages/experience.html">Experience</a></li>
+            <li><a href="pages/education.html">Education</a></li>
+            <li><a href="pages/skills.html">Skills</a></li>
+            <li><a href="pages/awards.html">Awards</a></li>
+            <li><a href="pages/teaching.html">Teaching</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
     <main>
         <section id="about">
             <h2>About Me</h2>
             <p>Welcome to my research portfolio. I am a Scientific Researcher specializing in Healthcare System Design & Development. I am currently working at the Department of Electrical Engineering, and Department of Neurology & Neurological Sciences at Stanford University School of Medicine. My work focuses on translational research with a focus on the development of novel healthcare systems, along with their clinical implications (biosensing, diagnostic, assistive, and rehabilitation applications).</p>
+            
+            <p>I am a dedicated researcher with expertise in biomedical engineering, neural engineering, and brain-computer interface systems. My research interests span across translational research in healthcare systems, biomedical circuits and systems, biosignals processing, and flexible electronics.</p>
+            
+            <p>My current work involves leading interdisciplinary projects in brain-controlled rehabilitation systems for stroke recovery, developing closed-loop control algorithms and wearable interfaces that restore motor function in stroke patients.</p>
         </section>
         
-        <section id="research">
-            <h2>Research Interests</h2>
+        <section id="overview">
+            <h2>Research Overview</h2>
             <div class="interests-grid">
                 <div class="interest-card">
                     <h3>Translational Research in Healthcare Systems</h3>
@@ -238,122 +56,6 @@
                 <div class="interest-card">
                     <h3>Flexible and Stretchable Electronics</h3>
                     <p>Design and characterization of biosensors via stretchable/flexible printed electronics.</p>
-                </div>
-            </div>
-        </section>
-        
-        <section id="publications">
-            <h2>Publications</h2>
-            <div class="publication">
-                <h3>SmartRehab - Hybrid BCI and EMG-Based functional electrical stimulation system for stroke rehabilitation</h3>
-                <p class="authors">M.A. Khan, B. Razavi, M. Lansberg, I. Brunner, S. Puthusserypady and K. J. Meador</p>
-                <p class="journal">Journal of Neural Engineering. (Under Review)</p>
-            </div>
-            <div class="publication">
-                <h3>AI Meets Neurorehabilitation: Deep Convolutional Neural Network for Motor Imagery Task Classification in Stroke Patients Using EEG Signals</h3>
-                <p class="authors">M.A. Khan, C. Uyanik, I. Brunner, S. Puthusserypady</p>
-                <p class="journal">IEEE Transactions on Neural Networks and Learning Systems (Under Review)</p>
-            </div>
-            <div class="publication">
-                <h3>Myoelectrically-Controlled Functional Electrical Stimulation System (Myo-FES) with Integrated Flex Sensor for Home-Based Stroke Rehabilitation and Functional Recovery Monitoring: A Pilot Study</h3>
-                <p class="authors">M. Saibene, M.A. Khan, C. Uyanik, S. Puthusserypady</p>
-                <p class="journal">10th International Conference on Intelligent Informatics and BioMedical Sciences, Dec. 2025 (Accepted)</p>
-            </div>
-            <div class="publication">
-                <h3><a href="https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2023.1272992/full">A systematic review on functional electrical stimulation-based rehabilitation systems for upper limb post-stroke recovery</a></h3>
-                <p class="authors">M.A. Khan, H. Fares, H. Ghayvat, I. Brunner, S. Puthusserypady, B. Razavi, M. Lansberg, A. Poon and K. J. Meador</p>
-                <p class="journal">Frontiers in Neurology, 2023, 14:1272992, DOI: 10.3389/fneur.2023.1272992</p>
-            </div>
-            <div class="publication">
-                <h3>Emergence of flexible technology in developing advanced systems for post-stroke rehabilitation: a comprehensive review</h3>
-                <p class="authors">M.A. Khan, M. Saibene, R. Das, I. Brunner, S. Puthusserypady</p>
-                <p class="journal">Journal of Neural Engineering, 2021, vol. 18, DOI: https://doi.org/10.1088/1741-2552/ac36aa</p>
-            </div>
-        </section>
-        
-        <section id="experience">
-            <h2>Professional Experience</h2>
-            <div class="experience-item">
-                <h3>Scientific Research Scholar (Jan. 2022 – Present)</h3>
-                <p><strong>Stanford University, USA</strong> (In Collaboration with Technical University of Denmark)</p>
-                <p>Leading Interdisciplinary Project: "SmartRehab: Design and development of brain-controlled smart and portable electrical stimulation-based rehabilitation system for upper limb stroke recovery."</p>
-                <ul>
-                    <li>Developed a BCI-controlled wireless and portable "SmartRehab" rehabilitation system for upper limb stroke recovery</li>
-                    <li>Awarded collaborative "Stanford HAI Hoffman-Yee Research Grant" for the project "NexGenRehab"</li>
-                    <li>Mentored PhD students in developing a compact, wireless, penny-sized EEG device</li>
-                </ul>
-            </div>
-            <div class="experience-item">
-                <h3>Technical Head (Jan. 2022 – Present)</h3>
-                <p><strong>Soof Solutions Inc., USA</strong> (Stanford-Based "Neurotech-AI in Medicine" Startup Company)</p>
-                <p>Leading the development of a stroke communication system that facilitates interaction between patients and caregivers.</p>
-            </div>
-            <div class="experience-item">
-                <h3>Marie Curie Postdoc Fellow (Dec. 2019 – Dec. 2021)</h3>
-                <p><strong>Technical University of Denmark (DTU), Denmark</strong></p>
-                <p>Developed a stroke rehabilitation system and advanced machine learning algorithms for BCI-based medical applications.</p>
-            </div>
-        </section>
-        
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>PhD in 'Technology for Health' (Nov. 2015 – Feb. 2019)</h3>
-                <p><strong>Fraunhofer Institute IKTS (Germany) and University of Brescia (Italy)</strong> (Joint Research)</p>
-                <p>PhD Topic: Design and development of an autonomous energy harvesting biosensor for real-time knee implant monitoring.</p>
-            </div>
-            <div class="education-item">
-                <h3>Master's in 'Bio-Embedded Systems' (Sept. 2012 – Sept 2014)</h3>
-                <p><strong>Technische Hochschule Ingolstadt (Germany) and Lucian Blaga University Sibiu (Romania)</strong></p>
-                <p>CGPA: 9.53/10 (Erasmus Mundus Joint Master's Scholarship)</p>
-            </div>
-            <div class="education-item">
-                <h3>Bachelor's in 'Biomedical Engineering' (Jan. 2007 – Dec. 2011)</h3>
-                <p><strong>NED University of Engineering and Technology (Pakistan)</strong></p>
-                <p>CGPA: 85% (1st Position Holder & Gold Medalist - Academic Merit Scholarship)</p>
-            </div>
-        </section>
-        
-        <section id="skills">
-            <h2>Skills and Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming Languages and 3D Modelling</h3>
-                    <p>C-language, MATLAB, Python, LabVIEW, AutoCAD, and Pro/Engineer Wildfire 5.0</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Hardware Development</h3>
-                    <p>Bio-Embedded Systems (Analog and Digital Electronics), Microcontroller Programming</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Data Analytics & AI for Healthcare</h3>
-                    <p>EEG (Electroencephalography) and EMG (Electromyography) via machine/deep learning techniques</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Biomedical Device Integration</h3>
-                    <p>Closed-loop systems, wearable sensor integration, IoT-enabled healthcare devices</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Printing Techniques for Biosensors</h3>
-                    <p>Inkjet printing, screen printing, and aerosol jet printing (flexible and stretchable electronics)</p>
-                </div>
-            </div>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact Information</h2>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <h3>Email</h3>
-                    <p>muhammad.khan@stanford.edu</p>
-                    <p>mahkh@dtu.dk</p>
-                </div>
-                <div class="contact-item">
-                    <h3>Professional Links</h3>
-                    <p>
-                        <a href="https://scholar.google.com/citations?user=oIhTw1AAAAAJ&hl=en">Google Scholar</a><br>
-                        <a href="https://www.linkedin.com/in/muhahmedkhan/">LinkedIn Profile</a>
-                    </p>
                 </div>
             </div>
         </section>
