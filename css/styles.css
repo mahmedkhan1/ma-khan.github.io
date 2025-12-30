@@ -90,6 +90,39 @@ h2 {
     border-bottom: 2px solid #3498db;
 }
 
+/* About section styling */
+#about p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+#about p:last-child {
+    margin-bottom: 0;
+}
+
+#about .lead {
+    font-size: 1.15rem;
+    color: #2c3e50;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, #f8fbff 0%, #f1f8ff 100%);
+    border-left: 4px solid #3498db;
+    border-radius: 0 6px 6px 0;
+}
+
+#about strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+#about em {
+    color: #3498db;
+    font-style: normal;
+    font-weight: 500;
+}
+
 /* Research interests */
 .interests-grid {
     display: grid;
