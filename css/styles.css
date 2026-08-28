@@ -9,12 +9,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f8f9fa;
+    background-color: #f9f5fc;
 }
 
 /* Header styles */
 header {
-    background: linear-gradient(135deg, #2c3e50, #1a2a3a);
+    background: linear-gradient(135deg, #4a2f6b, #2d1b4a);
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -39,7 +39,7 @@ h1 {
 
 /* Navigation */
 nav {
-    background-color: #34495e;
+    background-color: #5b3a7d;
     padding: 1rem 0;
 }
 
@@ -65,7 +65,7 @@ nav a {
 }
 
 nav a:hover, nav a.active {
-    background-color: #3498db;
+    background-color: #9b59b6;
 }
 
 /* Main content styles */
@@ -84,10 +84,10 @@ section {
 }
 
 h2 {
-    color: #2c3e50;
+    color: #4a2f6b;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #9b59b6;
 }
 
 /* About section styling */
@@ -103,22 +103,22 @@ h2 {
 
 #about .lead {
     font-size: 1.15rem;
-    color: #2c3e50;
+    color: #4a2f6b;
     line-height: 1.9;
     margin-bottom: 1.5rem;
     padding: 1rem 1.5rem;
-    background: linear-gradient(135deg, #f8fbff 0%, #f1f8ff 100%);
-    border-left: 4px solid #3498db;
+    background: linear-gradient(135deg, #faf5fc 0%, #f5eefa 100%);
+    border-left: 4px solid #9b59b6;
     border-radius: 0 6px 6px 0;
 }
 
 #about strong {
-    color: #2c3e50;
+    color: #4a2f6b;
     font-weight: 600;
 }
 
 #about em {
-    color: #3498db;
+    color: #9b59b6;
     font-style: normal;
     font-weight: 500;
 }
@@ -132,14 +132,14 @@ h2 {
 }
 
 .interest-card {
-    background: #f1f8ff;
+    background: #f5eefa;
     padding: 1.5rem;
     border-radius: 6px;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #9b59b6;
 }
 
 .interest-card h3 {
-    color: #2c3e50;
+    color: #4a2f6b;
     margin-bottom: 0.5rem;
 }
 
@@ -157,7 +157,7 @@ h2 {
 }
 
 .publication h3 {
-    color: #2c3e50;
+    color: #4a2f6b;
     margin-bottom: 0.5rem;
 }
 
@@ -168,17 +168,17 @@ h2 {
 }
 
 .publication .journal {
-    color: #3498db;
+    color: #9b59b6;
     font-weight: 500;
 }
 
 .publication h3 a {
-    color: #2c3e50;
+    color: #4a2f6b;
     text-decoration: none;
 }
 
 .publication h3 a:hover {
-    color: #3498db;
+    color: #9b59b6;
     text-decoration: underline;
 }
 
@@ -193,19 +193,19 @@ h2 {
 .contact-item {
     flex: 1;
     min-width: 250px;
-    background: #f1f8ff;
+    background: #f5eefa;
     padding: 1.5rem;
     border-radius: 6px;
 }
 
 .contact-item h3 {
-    color: #2c3e50;
+    color: #4a2f6b;
     margin-bottom: 0.5rem;
 }
 
 /* Footer */
 footer {
-    background: #2c3e50;
+    background: #4a2f6b;
     color: white;
     text-align: center;
     padding: 1.5rem;
@@ -236,7 +236,7 @@ footer {
 }
 
 .experience-item h3, .education-item h3, .skill-category h3 {
-    color: #2c3e50;
+    color: #4a2f6b;
     margin-bottom: 0.5rem;
 }
 
@@ -256,10 +256,10 @@ footer {
 }
 
 .award-category {
-    background: #f1f8ff;
+    background: #f5eefa;
     padding: 1.5rem;
     border-radius: 6px;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #9b59b6;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -270,7 +270,7 @@ footer {
 }
 
 .award-category h3 {
-    color: #2c3e50;
+    color: #4a2f6b;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #e0e0e0;
@@ -291,13 +291,13 @@ footer {
 
 .award-title {
     font-weight: 600;
-    color: #2c3e50;
+    color: #4a2f6b;
     margin-bottom: 0.3rem;
 }
 
 .award-date {
     font-size: 0.9rem;
-    color: #3498db;
+    color: #9b59b6;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
@@ -319,11 +319,11 @@ footer {
 /* Fancy date styling */
 .award-date {
     font-size: 0.9rem;
-    color: #3498db;
+    color: #9b59b6;
     font-weight: 600;
     margin-bottom: 0.5rem;
     display: inline-block;
-    background: rgba(52, 152, 219, 0.1);
+    background: rgba(155, 89, 182, 0.1);
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
     position: relative;
@@ -360,7 +360,7 @@ footer {
     top: 8px;
     width: 6px;
     height: 6px;
-    background: #3498db;
+    background: #9b59b6;
     border-radius: 50%;
 }
 
@@ -371,10 +371,10 @@ footer {
 
 /* Enhanced award category styling */
 .award-category {
-    background: linear-gradient(135deg, #f1f8ff 0%, #e3f2fd 100%);
+    background: linear-gradient(135deg, #f5eefa 0%, #f0e6f7 100%);
     padding: 1.8rem;
     border-radius: 8px;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #9b59b6;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
     position: relative;
@@ -388,7 +388,7 @@ footer {
     right: 0;
     border-width: 0 20px 20px 0;
     border-style: solid;
-    border-color: #3498db #fff;
+    border-color: #9b59b6 #fff;
 }
 
 .award-category:hover {
@@ -397,10 +397,10 @@ footer {
 }
 
 .award-category h3 {
-    color: #2c3e50;
+    color: #4a2f6b;
     margin-bottom: 1.2rem;
     padding-bottom: 0.6rem;
-    border-bottom: 2px solid rgba(52, 152, 219, 0.2);
+    border-bottom: 2px solid rgba(155, 89, 182, 0.2);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
 }
@@ -408,7 +408,7 @@ footer {
 .award-category h3::before {
     content: "▸";
     margin-right: 0.5rem;
-    color: #3498db;
+    color: #9b59b6;
 }
 
 /* Teaching and Supervision */
@@ -433,10 +433,10 @@ footer {
 }
 
 .collaboration-category {
-    background: #f1f8ff;
+    background: #f5eefa;
     padding: 1.5rem;
     border-radius: 6px;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #9b59b6;
 }
 
 /* Responsive design */
@@ -518,7 +518,7 @@ footer {
     }
     
     header {
-        background: #2c3e50 !important;
+        background: #4a2f6b !important;
         color: white !important;
         -webkit-print-color-adjust: exact;
         color-adjust: exact;
@@ -535,14 +535,14 @@ footer {
     
     .award-category {
         background: white !important;
-        border: 1px solid #3498db;
+        border: 1px solid #9b59b6;
         box-shadow: none;
         -webkit-print-color-adjust: exact;
         color-adjust: exact;
     }
     
     .award-date {
-        background: rgba(52, 152, 219, 0.2) !important;
+        background: rgba(155, 89, 182, 0.2) !important;
         -webkit-print-color-adjust: exact;
         color-adjust: exact;
     }
